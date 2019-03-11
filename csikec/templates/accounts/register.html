@@ -1,0 +1,19 @@
+{% extends 'base/base.html' %}
+{% block title %} Register
+{% endblock %}
+
+{% load static %}
+
+{% block customstyles %}
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block pagenavbar %}
+{% include 'base/_navbar.html' %}
+{% endblock %}
+
+{% block content %}
+<div class=" text-center mt-4">
+	{% include 'accounts/form.html' with form=form %}
+</div>
+{% endblock %}

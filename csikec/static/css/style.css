@@ -1,0 +1,33 @@
+.indigo{
+    background-color:#6610f2;
+}
+.white-text{
+    color:#fff!important
+}
+.h4-responsive{
+    font-size:135%
+}
+.btn-rounded{
+    -webkit-border-radius:10em;border-radius:10em
+}
+
+.navbar .pull-right>li>.dropdown-menu,.navbar .nav>li>.dropdown-menu.pull-right{
+    right:0;left:auto
+}
+.navbar .pull-right>li>.dropdown-menu:before,.navbar .nav>li>.dropdown-menu.pull-right:before{
+    right:12px;
+    left:auto
+}
+.navbar .pull-right>li>.dropdown-menu:after,.navbar .nav>li>.dropdown-menu.pull-right:after{
+    right:13px;
+    left:auto
+}
+.navbar .pull-right>li>.dropdown-menu .dropdown-menu,.navbar .nav>li>.dropdown-menu.pull-right .dropdown-menu{
+    right:100%;
+    left:auto;
+    margin-right:-1px;
+    margin-left:0;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px
+}

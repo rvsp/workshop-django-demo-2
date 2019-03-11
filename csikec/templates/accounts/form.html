@@ -1,0 +1,46 @@
+<div class="row ">
+	<div class="offset-lg-4 col-lg-4">
+		
+		<div class="card tx text-center " >
+			<div class="card-header text-uppercase bg-dark white-text h4-responsive">
+				Sign Up
+			</div>
+			<div class="card-body">
+				<p class="card-text">
+					<form method="POST" action='.'>
+						{% csrf_token %}
+						{{ form.as_p }}
+						<input type="submit" name="Submit" class="btn btn-outline-primary btn-rounded btn-block my-4 waves-effect z-depth-0">
+					</form>
+				</p>
+				Already have an account? <a href="{% url 'login' %}"> Login here!</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="row " style="margin-top: 8rem;">
+	<div class="col"></div>
+	<div class="col">
+
+	</div>
+	<div class="col"></div>
+</div>
+-->
